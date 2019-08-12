@@ -1,0 +1,60 @@
+/*
+
+*/
+/* 
+    Created on : 06-août-2019, 16:11:22
+    Author     : µ
+*/
+body{
+    background-image: url(images/paper-1332008_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: black;
+    font-weight: bold;        
+}
+h1{
+    color: red;
+}
+h2{
+    background-color: orange;
+    color: red;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background: rgba(252,234,187,1);
+    background: rgba(248,181,0,1);
+    background: -moz-linear-gradient(top, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 43%, rgba(252,234,187,1) 58%, rgba(252,205,77,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,181,0,1)), color-stop(43%, rgba(251,223,147,1)), color-stop(58%, rgba(252,234,187,1)), color-stop(100%, rgba(252,205,77,1)));
+    background: -webkit-linear-gradient(top, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 43%, rgba(252,234,187,1) 58%, rgba(252,205,77,1) 100%);
+    background: -o-linear-gradient(top, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 43%, rgba(252,234,187,1) 58%, rgba(252,205,77,1) 100%);
+    background: -ms-linear-gradient(top, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 43%, rgba(252,234,187,1) 58%, rgba(252,205,77,1) 100%);
+    background: linear-gradient(to bottom, rgba(248,181,0,1) 0%, rgba(251,223,147,1) 43%, rgba(252,234,187,1) 58%, rgba(252,205,77,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b500', endColorstr='#fccd4d', GradientType=0 );
+    padding: 05px 0 10px 20px;
+    margin: 20px;
+}
+img{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 200px 200px 200px 200px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 5px solid #000000;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+@media screen and (max-width: 450px){
+    .center{
+       width: 80%;
+}
+}

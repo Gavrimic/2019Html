@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>CV Michaël Gavrilescu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Michael Gavrilescu">
+        <meta name="keywords" content="HTML, CV, IT">
+        <!--link rel="stylesheet" href="mes_styles_1.css"/>--> 
+
+        <!-- Internal style only for this page-->
+        <style>
+            body{
+                display: flex;
+            }
+            section{
+                width: 75%;
+                border-left: 5px dotted red;
+                /*float: left;*/
+            }
+            /*Style de ma section de classe nommée "gauche"*/
+            section.gauche{
+                width: 20%;
+                border-left: none;
+            }
+            section.droite article{
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Section gauche -->
+        <section class="gauche">
+            <h1>Michaël Gavrilescu</h1>
+            <p>Motivé, </p>
+            <a title="avatar" href="images/myAvatar.png"> <img src="images/myAvatar.png" alt="avatar" class="center"></a>
+        </section>
+
+        <!-- Section droite -->
+
+        <section>
+            <article>
+                <h2>Mon expérience</h2>
+                <ul>
+                    <li><strong><i>De 2018 à 2019</i></strong> : Formateur et animateur pour l'ASBL Fobagra</li>
+                    <li><strong>De à</strong></li>
+                    <li><strong>De à</strong></li>
+                </ul>
+            </article>
+            <article>
+                <h2>Mes compétences</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+            <article>
+                <h2>Ma formation</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+        </section>
+    </body>
+</html>
